@@ -47,7 +47,6 @@ pyproj==3.6.1
 pyshp==2.3.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==306
 pyzmq==26.0.2
 requests==2.31.0
 scikit-learn==1.4.2
