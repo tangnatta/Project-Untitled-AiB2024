@@ -122,7 +122,7 @@ def predict(lat, lon):
     #! Predict
     soil_grp_data = soil_grp_data[FEATURE_SOIL_GROUP]
     soil_grp_data = soil_grp_data.to_numpy().reshape(1, -1)
-    if len(soil_grp_data) == 0:
+    if soil_grp_data.shape[1] == 0:
         return [[-1]]
     print(soil_grp_data)
     result = model.predict_proba(soil_grp_data)
