@@ -109,7 +109,7 @@ def find_soil_group_data(soil_series_id):
 def predict(lat, lon):
     #! Find soil group
     point = shapely.geometry.Point(lon, lat)
-    soil_grp = soil_gdf[soil_gdf.contains(point)]
+    soil_grp = soil_gdf[soil_gdf['geometry'].intersects(point)]
     if len(soil_grp) == 0:
         return [[-1]]
     soil_grp = soil_grp.iloc[0]['soilgroup']
@@ -117,7 +117,7 @@ def predict(lat, lon):
     soil_grp = find_soil_group_data(soil_grp)
 
     #! Find soil group data
-    soil_grp_data = soil_grp_df[soil_grp_df['grp_id'] == soil_grp]
+    soil_grp_data = soil_grp_df[soil_grp_df['grp_id'] == int(soil_grp)]
 
     #! Predict
     soil_grp_data = soil_grp_data[FEATURE_SOIL_GROUP]
