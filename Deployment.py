@@ -176,7 +176,7 @@ def main():
     # st.write(f"The latitude is {lat} and the longitude is {lon}")
     st.subheader(f"Best plant to plant here is {result}")
     st.write(
-        f"The probability of {result} is {np.round(res[0].max()*100, 2)} or {CLASSES}:{np.round(res[0]*100, 2)}")
+        f"The probability of {result} is {np.round(res[0].max()*100, 2)} or detailed probability are {CLASSES}:{np.round(res[0]*100, 2)}")
 
 
 if __name__ == "__main__":
