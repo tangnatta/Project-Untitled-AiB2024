@@ -1,0 +1,12 @@
+Model, Top-k Accuracy (k=1), 
+Baseline,0.587150838,
+Logistic,0.685437998,
+Logistic (w/ stdScaling),0.688850967,
+Dicision Tree,0.806029579,
+Dicision Tree (w/ stdScaling),0.806029579,-
+KNN ,0.89476678,
+KNN (w/ stdScaler),0.889647327,
+KNN (w/ minmaxscaler),0.887372014,
+SVC,0.586461889,
+XGBoost,0.806029579,
+CatBoost,0.832195677,
