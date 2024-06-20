@@ -12,6 +12,10 @@ XGBoost, Catboost, และ KNN (with standard scaler) ทำออกมาไ
 
 https://medium.com/@tangnatta/%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%94%E0%B8%B5-w-summary-fa9d7661e138
 
+## Code
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tangnatta/Project-Untitled-AiB2024/blob/main/FianlresultVistualize.ipynb) [Not well supported on Colab, but GitHub can't render this notebook so it better to preview on Colab] 
+
 ## Demo 
 
 https://deploymentpy-nqg4jgxq37rjnpkmrpjqef.streamlit.app/
