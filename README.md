@@ -14,7 +14,7 @@ https://medium.com/@tangnatta/%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B
 
 ## Code
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tangnatta/Project-Untitled-AiB2024/blob/main/FianlresultVistualize.ipynb) [Not well supported on Colab, but GitHub can't render this notebook so it better to preview on Colab] 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tangnatta/Project-Untitled-AiB2024/blob/main/FinalPublicNotebook.ipynb) [Not well supported on Colab, but GitHub can't render this notebook so it better to preview on Colab] 
 
 ## Demo 
 
